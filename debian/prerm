@@ -1,0 +1,33 @@
+#!/bin/sh
+# prerm script for ldm-themes
+#
+# see: dh_installdeb(1)
+
+set -e
+
+case "$1" in
+    remove)
+
+      sed -i 's|//this.selectedAppBox.set_height(0);|this.selectedAppBox.set_height(0);|g' /usr/share/cinnamon/applets/menu@cinnamon.org/applet.js || true
+
+      /usr/local/bin/hamonikr-theme-start restore || true
+      gtk-update-icon-cache || true
+    ;;
+
+    deconfigure|failed-upgrade)
+      gtk-update-icon-cache || true
+      # fc-cache -v -f
+    ;;
+
+    upgrade)
+      /usr/local/bin/hamonikr-theme-start restore || true
+      gtk-update-icon-cache || true    
+    ;;
+
+    *)
+        echo "prerm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+exit 0

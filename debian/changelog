@@ -1,0 +1,214 @@
+hamonikr-themes (4.0.0) public; urgency=medium
+
+  * Release for HamoniKR 5.0
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 08 Apr 2021 12:07:12 +0900
+
+hamonikr-themes (3.0.1) stable; urgency=medium
+
+  * Update usr/local/bin/hamonikr-theme-start
+   - change panel location to bottom
+   - removed keyboard applet
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 05 Mar 2021 17:50:20 +0900
+
+hamonikr-themes (3.0.0) stable; urgency=medium
+
+  * Release for server-2.0
+   - remove plank settings
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 05 Mar 2021 17:50:20 +0900
+
+hamonikr-themes (2.4.4) jin; urgency=medium
+
+  * changed /usr/share/themes/HamoniKR-light/cinnamon/cinnamon.css
+   - fix volume image color change
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 04 Mar 2021 10:27:15 +0900
+
+hamonikr-themes (2.4.3) jin; urgency=medium
+
+  * changed /usr/share/themes/HamoniKR-Jin-light/gtk-2.0/main.rc
+   - WPS Office 'save as' gtk Treeview fixed
+
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 15 Dec 2020 10:36:47 +0900
+
+hamonikr-themes (2.4.2) jin; urgency=medium
+
+  * Update usr/share/themes/HamoniKR-dark/cinnamon/cinnamon.css
+   - Changed startmenu themes
+
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 17 Nov 2020 19:38:54 +0900
+
+hamonikr-themes (2.4.1) jin; urgency=medium
+
+  * Update debian/control
+   - Add dependancy fonts-nanum-coding for pythonconsole
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 16 Nov 2020 18:46:32 +0900
+
+hamonikr-themes (2.4.0) jin; urgency=medium
+
+  * Update etc/skel/.config/plank/dock1/launchers dir
+   - Remove libre office dock items
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 16 Nov 2020 14:22:07 +0900
+
+hamonikr-themes (2.3.9) jin; urgency=medium
+
+  * Update etc/skel/.config/plank/dock1/launchers dir
+   - Update default dock items
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 16 Nov 2020 13:41:19 +0900
+
+hamonikr-themes (2.3.8) jin; urgency=medium
+
+  * Update usr/share/themes/HamoniKR-light/gtk-3.0/gtk.css
+  * Update usr/share/themes/HamoniKR-dark/gtk-3.0/gtk.css  
+   - Fixed filezilla input form style
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 13 Nov 2020 20:33:42 +0900
+
+hamonikr-themes (2.3.7) jin; urgency=medium
+
+  * Update usr/local/bin/hamonikr-theme-start
+   - Change default background image
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 12 Nov 2020 13:11:33 +0900
+
+hamonikr-themes (2.3.6) jin; urgency=medium
+
+  * Update etc/skel/.config/plank/dock1/launchers/io.github.celluloid_player.Celluloid.dockitem
+  * Update etc/skel/.config/plank/dock1/launchers/system-shutdown.dockitem
+   - Fixed path in files
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 12 Nov 2020 11:28:09 +0900
+
+hamonikr-themes (2.3.5) jin; urgency=medium
+
+  * Add etc/skel/.config/plank/dock1/launchers/io.github.celluloid_player.Celluloid.dockitem
+  * Add etc/skel/.config/plank/dock1/launchers/system-shutdown.dockitem
+  * Update usr/local/bin/hamonikr-theme-start
+   - Apply plank dockitems Index
+   - Add plank dockitems(shutdown, celluiod)
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 12 Nov 2020 11:12:42 +0900
+
+hamonikr-themes (2.3.4) jin; urgency=medium
+
+  * update usr/share/applications/plank-settings.desktop
+   - Change 'Icon' path
+
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 10 Nov 2020 16:43:04 +0900
+
+
+hamonikr-themes (2.3.3) jin; urgency=medium
+
+  * update usr/local/bin/hamonikr-theme-start
+   - Resotre Default theme when remove this package
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 09 Nov 2020 18:40:37 +0900
+
+hamonikr-themes (2.3.2) jin; urgency=medium
+
+  * update usr/local/bin/hamonikr-theme-start
+   - Changed gtk, wm default setting to HamoniKR-light
+
+ -- HamoniKR <pkg@hamonikr.org>  Sun, 08 Nov 2020 16:12:24 +0900
+
+hamonikr-themes (2.3.1) jin; urgency=medium
+
+  * update usr/local/bin/hamonikr-theme-start
+  * update usr/share/themes/HamoniKR-light/cinnamon/cinnamon.css
+   - Changed font to 나눔스퀘어라운드
+
+ -- HamoniKR <pkg@hamonikr.org>  Sun, 08 Nov 2020 13:58:50 +0900
+
+hamonikr-themes (2.3.0) jin; urgency=medium
+
+  * update postinst and prerm script
+   - fixed bug for sed to this.selectedAppBox.set_height(0)
+
+ -- HamoniKR <pkg@hamonikr.org>  Sun, 08 Nov 2020 13:46:50 +0900
+
+hamonikr-themes (2.2.9) jin; urgency=medium
+
+  * update postinst and prerm script
+   - adjust this.selectedAppBox.set_height(0)
+
+ -- HamoniKR <pkg@hamonikr.org>  Sun, 08 Nov 2020 13:32:48 +0900
+
+hamonikr-themes (2.2.8) jin; urgency=medium
+
+  * fixed search form font size
+
+ -- HamoniKR <pkg@hamonikr.org>  Sat, 31 Oct 2020 18:00:15 +0900
+ 
+hamonikr-themes (2.2.7) jin; urgency=medium
+
+  * change menu theme in cinnamon.css
+  * Add theme-test.sh for pre check
+
+ -- HamoniKR <pkg@hamonikr.org>  Sat, 31 Oct 2020 14:39:51 +0900
+
+hamonikr-themes (2.2.6) jin; urgency=medium
+
+  * Add plank-setting desktop file
+
+ -- HamoniKR <pkg@hamonikr.org>  Sat, 31 Oct 2020 10:16:25 +0900
+
+hamonikr-themes (2.2.5) jin; urgency=medium
+
+  * delete dependancy in control
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 29 Oct 2020 14:10:30 +0900
+
+hamonikr-themes (2.2.4) jin; urgency=medium
+
+  * transfer albert setting to hamonikr-system-settings
+  * update default plank dock items
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 28 Oct 2020 17:31:01 +0900
+
+hamonikr-themes (2.2.3) jin; urgency=medium
+
+  * Apply albert auto start
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 28 Oct 2020 10:14:41 +0900
+
+hamonikr-themes (2.2.2) jin; urgency=medium
+
+  * copy default conf for albert and plank
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 28 Oct 2020 10:06:38 +0900
+
+hamonikr-themes (2.2.1) jin; urgency=medium
+
+  * Add Panel settings
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 28 Oct 2020 09:32:44 +0900
+
+hamonikr-themes (2.2.0) jin; urgency=medium
+
+  * Add Albert launcher
+
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 27 Oct 2020 17:11:04 +0900
+
+hamonikr-themes (2.1.1) jin; urgency=medium
+
+  * Add wallpaper setting
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 26 Oct 2020 12:52:02 +0900
+
+hamonikr-themes (2.1.0) jin; urgency=medium
+
+  * Add restore and backup feature when remove pkg
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 26 Oct 2020 12:17:55 +0900
+
+hamonikr-themes (2.0.0) jin; urgency=medium
+
+  * Initial release for hamonikr 4.0 Jin 
+  * Added Dependancy hamonikr-jin-icon-theme 
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 26 Oct 2020 11:17:11 +0900
