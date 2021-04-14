@@ -4,7 +4,7 @@ hamonikr-themes (4.0.1) public; urgency=medium
   * Change /etc/xdg/autostart/hamonikr-theme.desktop > /etc/skel/.config/autostart
    - add postinst cp code
 
- -- HamoniKR <pkg@hamonikr.org>  Thu, 08 Apr 2021 12:07:12 +0900
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 14 Apr 2021 09:56:39 +0900
 
 hamonikr-themes (4.0.0) public; urgency=medium
 
