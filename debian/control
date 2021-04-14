@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 9), sassc
 Standards-Version: 3.9.5
 
 Package: hamonikr-themes
-Replaces: libplank-common, mint-clearloox-theme, 
+Replaces: mint-clearloox-theme, 
           mint-x-theme, mint-y-theme, mint-z-theme, 
           mint-themes-gtk3, cinnamon-themes, 
           hamonikr-jin-themes
