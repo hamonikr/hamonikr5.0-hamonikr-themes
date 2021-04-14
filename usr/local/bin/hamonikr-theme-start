@@ -106,7 +106,7 @@ case $1 in
 
 # jin theme
   jin )
-    if [ -f "/usr/local/bin/hamonikr-themes-extra" ] ; then
+    if [ -f "/usr/local/bin/hamonikr-theme-extra" ] ; then
             /usr/local/bin/hamonikr-theme-extra jin
     else
         echo "please install package"

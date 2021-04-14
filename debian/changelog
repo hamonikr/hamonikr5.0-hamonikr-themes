@@ -1,3 +1,9 @@
+hamonikr-themes (4.0.2) public; urgency=medium
+
+  * Fix Jin Function location
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 15 Apr 2021 02:25:57 +0900
+
 hamonikr-themes (4.0.1) public; urgency=medium
 
   * Change /usr/local/bin/hamonikr-theme-start code
