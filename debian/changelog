@@ -1,3 +1,11 @@
+hamonikr-themes (4.0.3) public; urgency=medium
+
+  * Fix postinst
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 15 Apr 2021 15:37:02 +0900
+
+hamonikr-themes (4.0.1) public; urgency=medium
+
 hamonikr-themes (4.0.2) public; urgency=medium
 
   * Fix Jin Function location

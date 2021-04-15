@@ -10,12 +10,15 @@ case "$1" in
       sed -i 's|this.selectedAppBox.set_height(0);|//this.selectedAppBox.set_height(0);|g' /usr/share/cinnamon/applets/menu@cinnamon.org/applet.js || true
 
       RUID=$(who | awk 'FNR == 1 {print $1}')
-      if [ ! -f /home/${RUID}/.config/autostart/hamonikr-theme.desktop ] ; then
-        cp /etc/skel/.config/autostart/hamonikr-theme.desktop /home/${RUID}/.config/autostart/
-      fi
-      rm -f /home/${RUID}/.hamonikr/themes/done/hamonikr-theme-start.* || true
-      rm -f /home/${RUID}/.hamonikr/themes/save/hamonikr-theme-backup.dconf || true      
 
+      if [ "$RUID" != "" ] ; then
+        if [ ! -f /home/${RUID}/.config/autostart/hamonikr-theme.desktop ] ; then
+          cp /etc/skel/.config/autostart/hamonikr-theme.desktop /home/${RUID}/.config/autostart/
+        fi
+        rm -f /home/${RUID}/.hamonikr/themes/done/hamonikr-theme-start.* || true
+        rm -f /home/${RUID}/.hamonikr/themes/save/hamonikr-theme-backup.dconf || true      
+      fi
+      
       gtk-update-icon-cache || true
 
     ;;
