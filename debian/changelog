@@ -1,10 +1,21 @@
+hamonikr-themes (4.0.5) public; urgency=medium
+
+  * remove /etc/xdg/autostart/hamonikr-theme-start file
+    - if not remove this file > prerm remove this file
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 03 May 2021 16:08:46 +0900
+
+hamonikr-themes (4.0.4) public; urgency=medium
+
+  * Add X-GNOME-Autostart-Delay in hamonikr-theme.desktop
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 15 Apr 2021 16:45:03 +0900
+
 hamonikr-themes (4.0.3) public; urgency=medium
 
   * Fix postinst
 
  -- HamoniKR <pkg@hamonikr.org>  Thu, 15 Apr 2021 15:37:02 +0900
-
-hamonikr-themes (4.0.1) public; urgency=medium
 
 hamonikr-themes (4.0.2) public; urgency=medium
 

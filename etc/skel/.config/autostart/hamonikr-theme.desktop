@@ -7,3 +7,4 @@ Exec=hamonikr-theme-start default
 Terminal=false
 Type=Application
 StartupNotify=false
+X-GNOME-Autostart-Delay=1
