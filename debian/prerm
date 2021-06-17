@@ -7,8 +7,6 @@ set -e
 
 case "$1" in
     remove)
-      
-      rm /etc/xdg/autostart/hamonikr-theme.desktop
       sed -i 's|//this.selectedAppBox.set_height(0);|this.selectedAppBox.set_height(0);|g' /usr/share/cinnamon/applets/menu@cinnamon.org/applet.js || true
 
       /usr/local/bin/hamonikr-theme-start restore || true

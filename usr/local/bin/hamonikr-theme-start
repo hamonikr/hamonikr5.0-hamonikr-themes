@@ -104,10 +104,10 @@ case $1 in
   exit 0
   ;;
 
-# jin theme
-  jin )
+# hanla theme
+  hanla )
     if [ -f "/usr/local/bin/hamonikr-theme-extra" ] ; then
-            /usr/local/bin/hamonikr-theme-extra jin
+            /usr/local/bin/hamonikr-theme-extra hanla
     else
         echo "please install package"
         echo "sudo apt install hamonikr-themes-extra"

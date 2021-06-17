@@ -9,10 +9,11 @@ Package: hamonikr-themes
 Replaces: mint-clearloox-theme, 
           mint-x-theme, mint-y-theme, mint-z-theme, 
           mint-themes-gtk3, cinnamon-themes, 
-          hamonikr-jin-themes
+          hamonikr-jin-themes, hamonikr-artwork
 Conflicts: mint-clearloox-theme, mint-x-theme, 
            mint-y-theme, mint-z-theme, 
-           mint-themes-gtk3, cinnamon-themes
+           mint-themes-gtk3, cinnamon-themes,
+           hamonikr-jin-themes, hamonikr-artwork
 Depends: ${misc:Depends}
 Recommends: fonts-nanum, fonts-nanum-coding, fonts-nanum-extra, 
             fonts-noto-cjk-extra, 
