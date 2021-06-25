@@ -15,8 +15,14 @@ case "$1" in
         if [ ! -f /home/${RUID}/.config/autostart/hamonikr-theme.desktop ] ; then
           cp /etc/skel/.config/autostart/hamonikr-theme.desktop /home/${RUID}/.config/autostart/
         fi
+
+        if [ ! -f /home/${RUID}/.config/autostart/plank.desktop ] ; then
+          cp /etc/skel/.config/autostart/plank.desktop /home/${RUID}/.config/autostart/
+        fi
+
         rm -f /home/${RUID}/.hamonikr/themes/done/hamonikr-theme-start.* || true
-        rm -f /home/${RUID}/.hamonikr/themes/save/hamonikr-theme-backup.dconf || true      
+        rm -f /home/${RUID}/.hamonikr/themes/save/hamonikr-theme-backup.dconf || true
+
       fi
       
       gtk-update-icon-cache || true

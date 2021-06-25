@@ -9,7 +9,7 @@ case "$1" in
     remove)
       sed -i 's|//this.selectedAppBox.set_height(0);|this.selectedAppBox.set_height(0);|g' /usr/share/cinnamon/applets/menu@cinnamon.org/applet.js || true
 
-      /usr/local/bin/hamonikr-theme-start restore || true
+      /usr/local/bin/hamonikr-theme-start remove || true
       gtk-update-icon-cache || true
     ;;
 

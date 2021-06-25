@@ -1,3 +1,9 @@
+hamonikr-themes (4.0.9) hanla; urgency=medium
+
+  * combine hamonikr-themes-extra package
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 24 Jun 2021 10:03:13 +0900
+
 hamonikr-themes (4.0.8) hanla; urgency=medium
 
   * change theme name jin to hanla
