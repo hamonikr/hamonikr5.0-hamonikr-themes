@@ -1,3 +1,10 @@
+hamonikr-themes (4.1.0) hanla; urgency=medium
+
+  * add cursor-theme change code
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 23 Sep 2021 13:32:05 +0900
+
+
 hamonikr-themes (4.0.9) hanla; urgency=medium
 
   * combine hamonikr-themes-extra package
